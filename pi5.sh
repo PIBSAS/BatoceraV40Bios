@@ -15,7 +15,7 @@ echo "Limpiando las bios basura que te descargaste de otro lado o las mismas si 
 echo "Cleaning the garbage bios downloaded from other sites or from this site but if you internet shutdown in the process"
 echo
 RUTA=https://raw.githubusercontent.com/PIBSAS/BatoceraV40Bios/main/bios/
-RUTA_ARCH="https://archive.org/download/bios_batocera/BatoceraV40Bios/bios/"
+RUTA_ARCH="https://archive.org/download/bios_batocera/BatoceraV39Bios/bios/"
 echo
 echo "Si el sistema es nuevo veras mensajes de que no puede borrar"
 echo "You will see cannot remove if the system is new"
