@@ -12,6 +12,7 @@ mount -o remount,rw /boot
 echo
 RUTA=https://raw.githubusercontent.com/PIBSAS/BatoceraV40Bios/main/bios/
 RUTA_ARCH="https://archive.org/download/bios_batocera/BatoceraV39Bios/bios/"
+RUTA_B="https://archive.org/download/bios_batocera/"
 echo "Limpiando las bios basura que te descargaste de otro lado o las mismas si se te corto internet"
 echo "Cleaning the garbage bios downloaded from other sites or from this site but if you internet shutdown in the process"
 cd
@@ -624,8 +625,8 @@ wget -c "${RUTA}bios7.bin" -P ../bios/
 wget -c "${RUTA}bios9.bin" -P ../bios/
 wget -c "${RUTA_ARCH}dsi_bios7.bin" -P ../bios/
 wget -c "${RUTA_ARCH}dsi_bios9.bin" -P ../bios/
-wget -c "${RUTA_ARCH}dsi_firmware.bin" -P ../bios/
-wget -c "${RUTA_ARCH}dsi_nand.bin" -P ../bios/
+wget -c "${RUTA}dsi_firmware.bin" -P ../bios/
+wget -c "${RUTA_B}dsi_nand.bin" -P ../bios/
 echo
 echo "Neo-Geo: Lr-Fbneo, Lr-MAME, Lr-MAME0139, Lr-MAME078plus"
 echo

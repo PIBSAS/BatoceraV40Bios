@@ -16,6 +16,7 @@ echo "Cleaning the garbage bios downloaded from other sites or from this site bu
 echo
 RUTA=https://raw.githubusercontent.com/PIBSAS/BatoceraV40Bios/main/bios/
 RUTA_ARCH="https://archive.org/download/bios_batocera/BatoceraV39Bios/bios/"
+RUTA_B="https://archive.org/download/bios_batocera/"
 echo
 echo "Si el sistema es nuevo veras mensajes de que no puede borrar"
 echo "You will see cannot remove if the system is new"
@@ -528,8 +529,8 @@ wget -c "${RUTA}bios7.bin" -P ../bios/
 wget -c "${RUTA}bios9.bin" -P ../bios/
 wget -c "${RUTA_ARCH}dsi_bios7.bin" -P ../bios/
 wget -c "${RUTA_ARCH}dsi_bios9.bin" -P ../bios/
-wget -c "${RUTA_ARCH}dsi_firmware.bin" -P ../bios/
-wget -c "${RUTA_ARCH}dsi_nand.bin" -P ../bios/
+wget -c "${RUTA}dsi_firmware.bin" -P ../bios/
+wget -c "${RUTA_B}dsi_nand.bin" -P ../bios/
 echo
 echo "###### NINTENDO GAMEBOY ADVANCE ######"
 echo
