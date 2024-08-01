@@ -543,7 +543,7 @@ echo
 echo "###### SONY PS3 ######"
 # https://www.playstation.com/en-us/support/system-updates/ps3/
 echo
-wget -c "${RUTA_ARCH}PS3UPDAT.PUP" -P ../bios/
+wget -c "${RUTA_B}PS3UPDAT.PUP" -P ../bios/
 echo
 echo "###### NINTENDO FAMILY DISK SYSTEM ######"
 # https://docs.libretro.com/library/fceumm/#bios
@@ -603,8 +603,8 @@ wget -c "${RUTA}MSX2PEXT.ROM" -P ../bios/
 echo
 echo "###### Microsoft XBOX ######"
 echo
-wget -c "${RUTA_ARCH}mcpx_1.0.bin" -P ../bios/
-wget -c "${RUTA_ARCH}Complex_4627.bin" -P ../bios/
+wget -c "${RUTA}mcpx_1.0.bin" -P ../bios/
+wget -c "${RUTA}Complex_4627.bin" -P ../bios/
 echo
 echo "###### COMMODORE Amiga 500 ######"
 # https://github.com/libretro/libretro-super/blob/master/dist/info/puae_libretro.info
@@ -912,8 +912,8 @@ echo "###### PLAYSTATION VITA ######"
 # https://www.playstation.com/en-us/support/hardware/psvita/system-software/
 # http://dus01.psp2.update.playstation.net/update/psp2/image/2022_0209/sd_59dcf059d3328fb67be7e51f8aa33418/PSP2UPDAT.PUP?dest=us
 echo
-wget -c "${RUTA_ARCH}PSP2UPDAT.PUP" -P ../bios/psvita/
-wget -c "${RUTA_ARCH}PSVUPDAT.PUP" -P ../bios/psvita/
+wget -c "${RUTA_ARCH}psvita/PSP2UPDAT.PUP" -P ../bios/psvita/
+wget -c "${RUTA_ARCH}psvita/PSVUPDAT.PUP" -P ../bios/psvita/
 echo
 echo "###### GCE VECTREX ######"
 echo
@@ -984,7 +984,8 @@ echo
 #                                                       { "md5": "f23d7e00ae8fbf88908ed1f9165f35eb", "file": "bios/cerbios.bin" }] },
 echo "###### SEGA CHIHIRO XBOX ARCADE ######"
 echo
-wget -c "${RUTA}mcpx_1.0.bin" -P ../bios/
+#wget -c "${RUTA}mcpx_1.0.bin" -P ../bios/
+echo "mcpx_1.0.bin already downloaded"
 wget -c "${RUTA}cerbios.bin" -P ../bios/
 echo
 sleep 1
