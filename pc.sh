@@ -531,7 +531,7 @@ echo "###### SONY PS2 ######"
 # https://pcsx2.net/config-guide/official-english-pcsx2-configuration-guide.html#Bios
 # use the last USA bios which can run NTSC and PAL games
 echo
-wget -c "${RUTA_ARCH}ps2/ps2-0230a-20080220.bin" -P ../bios/ps2/
+wget -c "${RUTA}ps2/ps2-0230a-20080220.bin" -P ../bios/ps2/
 #wget -c "${RUTA_ARCH}EROM.BIN" -P ../bios/
 #wget -c "${RUTA_ARCH}ROM2.BIN" -P ../bios/
 #wget -c "${RUTA_ARCH}SCPH30004R.MEC" -P ../bios/
