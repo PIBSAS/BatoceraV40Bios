@@ -33,7 +33,7 @@ mkdir ../bios/neocd
 mkdir ../bios/mame
 mkdir ../bios/mame/samples
 mkdir ../bios/openmsx
-mkdir ../bios/ps2
+#mkdir ../bios/ps2
 #mkdir ../bios/psvita
 mkdir ../bios/scummvm/extra
 mkdir ../bios/xmil
@@ -66,7 +66,7 @@ rm ../bios/rom1.bin
 rm ../bios/scph39001.MEC
 rm ../bios/scph39001.bin
 #rm ../bios/wsh57/scripten.exe
-rm ../bios/ps2/ps2-0230a-20080220.bin
+#rm ../bios/ps2/ps2-0230a-20080220.bin
 #rm ../bios/psvita/PSP2UPDAT.PUP
 #rm ../bios/psvita/PSVUPDAT.PUP
 echo
@@ -501,16 +501,16 @@ wget -c "${RUTA}scph5501.bin" -P ../bios/
 wget -c "${RUTA}scph5502.bin" -P ../bios/
 wget -c "${RUTA}scph7001.bin" -P ../bios/
 echo
-echo "###### SONY PS2 ######"
+#echo "###### SONY PS2 ######"
 echo
-wget -c "${RUTA}ps2-0230a-20080220.bin" -P ../bios/ps2/
-wget -c "${RUTA_ARCH}EROM.BIN" -P ../bios/
-wget -c "${RUTA_ARCH}ROM2.BIN" -P ../bios/
-wget -c "${RUTA_ARCH}SCPH30004R.MEC" -P ../bios/
-wget -c "${RUTA_ARCH}SCPH30004R.bin" -P ../bios/
-wget -c "${RUTA_ARCH}rom1.bin" -P ../bios/
-wget -c "${RUTA_ARCH}scph39001.MEC" -P ../bios/
-wget -c "${RUTA_ARCH}scph39001.bin" -P ../bios/
+#wget -c "${RUTA}ps2-0230a-20080220.bin" -P ../bios/ps2/
+#wget -c "${RUTA_ARCH}EROM.BIN" -P ../bios/
+#wget -c "${RUTA_ARCH}ROM2.BIN" -P ../bios/
+#wget -c "${RUTA_ARCH}SCPH30004R.MEC" -P ../bios/
+#wget -c "${RUTA_ARCH}SCPH30004R.bin" -P ../bios/
+#wget -c "${RUTA_ARCH}rom1.bin" -P ../bios/
+#wget -c "${RUTA_ARCH}scph39001.MEC" -P ../bios/
+#wget -c "${RUTA_ARCH}scph39001.bin" -P ../bios/
 echo
 #echo "###### SONY PS3 ######"
 echo
