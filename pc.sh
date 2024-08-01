@@ -524,11 +524,11 @@ wget -c "${RUTA}disksys.rom" -P ../bios/
 echo
 echo "###### NINTENDO DS ######"
 echo
-wget -c "${RUTA_ARCH}firmware.bin" -P ../bios/
+wget -c "${RUTA}firmware.bin" -P ../bios/
 wget -c "${RUTA}bios7.bin" -P ../bios/
 wget -c "${RUTA}bios9.bin" -P ../bios/
-wget -c "${RUTA_ARCH}dsi_bios7.bin" -P ../bios/
-wget -c "${RUTA_ARCH}dsi_bios9.bin" -P ../bios/
+wget -c "${RUTA}dsi_bios7.bin" -P ../bios/
+wget -c "${RUTA}dsi_bios9.bin" -P ../bios/
 wget -c "${RUTA}dsi_firmware.bin" -P ../bios/
 wget -c "${RUTA_B}dsi_nand.bin" -P ../bios/
 echo
