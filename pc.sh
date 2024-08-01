@@ -47,7 +47,7 @@ rm ../bios/amiga/amiga-os-310-a600.rom
 rm ../bios/amiga/amiga-os-310-a4000.rom
 rm ../bios/apple2ee.zip
 rm ../bios/apple2p.zip
-rm ../bios/amiga/amiga/kick37350.A600
+rm ../bios/amiga/kick37350.A600
 rm ../bios/vectrex.zip
 rm ../bios/Complex_4627.bin
 rm ../bios/EROM.BIN
@@ -151,16 +151,16 @@ rm ../bios/gp32.zip
 rm ../bios/grom.bin
 rm ../bios/hikaru.zip
 rm ../bios/jopac.bin
-rm ../bios/amiga/amiga/kick33180.A500
-rm ../bios/amiga/amiga/kick34005.A500
-rm ../bios/amiga/amiga/kick34005.CDTV
-rm ../bios/amiga/amiga/kick37175.A500
-rm ../bios/amiga/amiga/kick39106.A1200
-rm ../bios/amiga/amiga/kick40060.CD32
-rm ../bios/amiga/amiga/kick40060.CD32.ext
-rm ../bios/amiga/amiga/kick40063.A600
-rm ../bios/amiga/amiga/kick40068.A1200
-rm ../bios/amiga/amiga/kick40068.A4000
+rm ../bios/amiga/kick33180.A500
+rm ../bios/amiga/kick34005.A500
+rm ../bios/amiga/kick34005.CDTV
+rm ../bios/amiga/kick37175.A500
+rm ../bios/amiga/kick39106.A1200
+rm ../bios/amiga/kick40060.CD32
+rm ../bios/amiga/kick40060.CD32.ext
+rm ../bios/amiga/kick40063.A600
+rm ../bios/amiga/kick40068.A1200
+rm ../bios/amiga/kick40068.A4000
 rm ../bios/laser310.zip
 rm ../bios/lynx48k.zip
 rm ../bios/lynx96k.zip
@@ -573,7 +573,7 @@ echo
 wget -c "${RUTA_ARCH}mcpx_1.0.bin" -P ../bios/
 wget -c "${RUTA_ARCH}Complex_4627.bin" -P ../bios/
 echo
-echo "###### COMMODORE amiga/amiga 500 ######"
+echo "###### COMMODORE Amiga 500 ######"
 echo
 wget -c "${RUTA}amiga/kick33180.A500" -P ../bios/amiga/
 wget -c "${RUTA}amiga/kick37175.A500" -P ../bios/amiga/
@@ -586,14 +586,14 @@ wget -c "${RUTA}amiga/amiga-os-204.rom" -P ../bios/amiga/
 wget -c "${RUTA}amiga/amiga-os-205.rom" -P ../bios/amiga/
 wget -c "${RUTA}amiga/amiga-os-310-a600.rom" -P ../bios/amiga/
 echo
-echo "###### COMMODORE amiga/amiga CDTV ######"
+echo "###### COMMODORE Amiga CDTV ######"
 echo
 echo "amiga/amiga/kick34005.A500 already downloaded"
 wget -c "${RUTA}amiga/kick34005.CDTV" -P ../bios/amiga/
 echo "amiga/amiga-os-130.rom already downloaded"
 wget -c "${RUTA}amiga-ext-130-cdtv.rom" -P ../bios/amiga/
 echo
-echo "###### COMMODORE amiga/amiga 1200 ######"
+echo "###### COMMODORE Amiga 1200 ######"
 echo
 wget -c "${RUTA}amiga/kick39106.A1200" -P ../bios/amiga/
 wget -c "${RUTA}amiga/kick40068.A1200" -P ../bios/amiga/
@@ -604,7 +604,7 @@ wget -c "${RUTA}amiga/amiga-os-310-a3000.rom" -P ../bios/amiga/
 wget -c "${RUTA}amiga/amiga-os-310-a4000.rom" -P ../bios/amiga/
 wget -c "${RUTA}amiga/amiga-os-310.rom" -P ../bios/amiga/
 echo
-echo "###### COMMODORE amiga/amiga CD32 ######"
+echo "###### COMMODORE Amiga CD32 ######"
 echo
 wget -c "${RUTA}amiga/kick40060.CD32" -P ../bios/amiga/
 wget -c "${RUTA}amiga/kick40060.CD32.ext" -P ../bios/amiga/
