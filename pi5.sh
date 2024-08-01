@@ -22,6 +22,7 @@ echo "Si el sistema es nuevo veras mensajes de que no puede borrar"
 echo "You will see cannot remove if the system is new"
 echo
 cd
+mkdir ../bios/amiga
 mkdir ../bios/dc
 mkdir ../bios/GC
 mkdir ../bios/GC/EUR
@@ -44,9 +45,10 @@ rm ../bios/adbmodem.zip
 rm ../bios/amiga/amiga-os-300-a1200.rom
 rm ../bios/amiga/amiga-os-310-a600.rom
 rm ../bios/amiga/amiga-os-310-a4000.rom
+rm ../bios/amiga/amiga-os-310-a1200.rom
 rm ../bios/apple2ee.zip
 rm ../bios/apple2p.zip
-rm ../bios/kick37350.A600
+rm ../bios/amiga/kick37350.A600
 rm ../bios/vectrex.zip
 rm ../bios/Complex_4627.bin
 rm ../bios/EROM.BIN
@@ -147,16 +149,16 @@ rm ../bios/gp32.zip
 rm ../bios/grom.bin
 rm ../bios/hikaru.zip
 rm ../bios/jopac.bin
-rm ../bios/kick33180.A500
-rm ../bios/kick34005.A500
-rm ../bios/kick34005.CDTV
-rm ../bios/kick37175.A500
-rm ../bios/kick39106.A1200
-rm ../bios/kick40060.CD32
-rm ../bios/kick40060.CD32.ext
-rm ../bios/kick40063.A600
-rm ../bios/kick40068.A1200
-rm ../bios/kick40068.A4000
+rm ../bios/amiga/kick33180.A500
+rm ../bios/amiga/kick34005.A500
+rm ../bios/amiga/kick34005.CDTV
+rm ../bios/amiga/kick37175.A500
+rm ../bios/amiga/kick39106.A1200
+rm ../bios/amiga/kick40060.CD32
+rm ../bios/amiga/kick40060.CD32.ext
+rm ../bios/amiga/kick40063.A600
+rm ../bios/amiga/kick40068.A1200
+rm ../bios/amiga/kick40068.A4000
 rm ../bios/laser310.zip
 rm ../bios/lynx48k.zip
 rm ../bios/lynx96k.zip
