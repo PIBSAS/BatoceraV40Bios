@@ -534,13 +534,6 @@ echo
 # use the last USA bios which can run NTSC and PAL games
 echo
 #wget -c "${RUTA}ps2-0230a-20080220.bin" -P ../bios/ps2/
-#wget -c "${RUTA_ARCH}EROM.BIN" -P ../bios/
-#wget -c "${RUTA_ARCH}ROM2.BIN" -P ../bios/
-#wget -c "${RUTA_ARCH}SCPH30004R.MEC" -P ../bios/
-#wget -c "${RUTA_ARCH}SCPH30004R.bin" -P ../bios/
-#wget -c "${RUTA_ARCH}rom1.bin" -P ../bios/
-#wget -c "${RUTA_ARCH}scph39001.MEC" -P ../bios/
-#wget -c "${RUTA_ARCH}scph39001.bin" -P ../bios/
 echo
 #echo "###### SONY PS3 ######"
 # https://www.playstation.com/en-us/support/system-updates/ps3/
@@ -986,7 +979,7 @@ echo
 #                                                       { "md5": "f23d7e00ae8fbf88908ed1f9165f35eb", "file": "bios/cerbios.bin" }] },
 #echo "###### SEGA CHIHIRO XBOX ARCADE ######"
 #echo
-#wget -c "${RUTA}mcpx_1.0.bin" -P ../bios/
+#echo "mcpx_1.0.bin already downloaded"
 #wget -c "${RUTA}cerbios.bin" -P ../bios/
 #echo
 sleep 1
