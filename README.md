@@ -6,7 +6,7 @@ Las Bios Correctas y necesarias para Batocera V40, sin archivos innecesarios.
 The right Bios for Batocera V40 without unnecessary files.
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/PIBSAS/RetroPieBios/master/logov3.png" alt="Raspberry Pi Buenos Aires" width="400" height="500">
+<img src="https://raw.githubusercontent.com/PIBSAS/RetroPieBios/master/logov3.png" alt="Luciano's tech" width="400" height="500">
 </p>
 
 <h2 align="center"> Raspberry Pi Bios Batocera V40</h2>
@@ -57,7 +57,7 @@ curl -sSL https://raw.githubusercontent.com/PIBSAS/BatoceraV40Bios/main/pc.sh | 
 <br>
 
 # Tutorial: Retroconsolas
-https://sites.google.com/view/raspberrypibuenosaires/retro-consolas
+https://sites.google.com/view/lucianostech/retro-consolas
 
 # Tutorial: Crea tu propio Joystick Arcade con Pro-Micro mejor que Zero Delay
 https://sites.google.com/view/raspberrypibuenosaires/joystick-arcade
